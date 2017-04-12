@@ -9,6 +9,8 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 ---
 
+### Barbershop
+
 ### Памятка
 
 #### 1. Зарегистрируйтесь на Гитхабе
