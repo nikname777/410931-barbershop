@@ -1,9 +1,15 @@
+body, ul, input {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: 'PT Sans Narrow', arial, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	color: #000000;
 	line-height: 24px;
+	background-image: url(../img/bg-main.jpg);
 }
 
 .h1, .h2 {
@@ -21,3 +27,161 @@ body {
 	font-size: 24px;
 	line-height: 30px;
 }
+
+.header {
+	background-color: #000000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-wrapper {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.header-logo {
+	width: 140px;
+	outline: 1px dashed blue;
+	float: left;
+}
+
+.nav-header {
+	width: 620px;
+	outline: 1px dashed pink;
+	margin: 0;
+	float: left;
+}
+
+.nav-header li {
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.nav-enter {
+	text-align: right;
+	width: 140px;
+	outline: 1px dashed yellow;
+	float: right;
+}
+
+.h1 {
+	outline: 1px dashed orange;
+}
+
+.breadcrumbs{
+	outline: 1px dashed green;
+	margin-bottom: 20px;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.filter-wrapper {
+	width: 225px;
+	outline: 1px dashed brown;
+	float:left;
+}
+
+.filter-wrapper ul {
+	list-style: none;
+}
+
+.goods {
+	width: 700px;
+	outline: 1px dashed grey;
+	float: right;
+}
+
+.goods-wrapper {
+	margin-bottom: 20px;
+}
+
+.good-item {
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+	outline: 1px dashed #e31bc0;
+}
+
+.good-item:nth-child(3n+3) {
+	margin-right: 0;
+}
+
+.slider {
+	width: 460px;
+	float: left;
+	outline: 1px dashed red;
+	line-height: 0;
+}
+
+.slider-items {
+	margin-top: 20px;
+}
+
+.slider-items img {
+	margin-right: 16px;
+	margin-bottom: -4px;
+}
+
+.slider-items img:last-child {
+	margin-right: -20px;
+}
+
+.good-description {
+	width: 390px;
+	float: right;
+	outline: 1px dashed brown;
+}
+
+.pager {
+	outline: 1px dashed red;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer {
+	color: #ffffff;
+	background: url(../img/bg-footer.jpg) repeat-x;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+
+.footer-contacts {
+	width: 380px;
+	float: left;
+	outline: 1px dashed white;
+	margin-right: 20px;
+}
+
+.footer-social, .footer-copyright {
+	widht: 140px;
+	outline: 1px dashed white;
+}
+
+.footer-social {
+	float: left;
+}
+
+.footer-copyright {
+	float: right;
+}
+
+.footer-copyright p, 
+.footer-social p {
+	text-align: center;
+}
+
+
+
+
+
